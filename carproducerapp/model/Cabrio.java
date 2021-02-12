@@ -5,9 +5,16 @@ import com.eng.works.carproducerapp.model.base.Car;
 /**
  * Created by eyubakay at 9.02.2021 18:17
  */
-public class Hatchback implements Car {
+public class Cabrio implements Car {
+
+    private String type;
+
+    public Cabrio() {
+        this.type = "Cabrio";
+    }
+
     @Override
     public String getType() {
-        return "Hatchback Car has produced";
+        return this.type;
     }
 }

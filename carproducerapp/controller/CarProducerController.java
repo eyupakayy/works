@@ -25,7 +25,7 @@ public class CarProducerController {
         if(car == null){
             return "invalid type";
         }else{
-            return car.getType();
+            return car.getType() + " Car has produced";
         }
     }
 
